@@ -1,0 +1,7 @@
+services:
+  linkcleaner:
+    container_name: LinkCleaner
+    build: https://github.com/Mnky313/Discord_LinkCleaner.git
+    env_file: ".env"
+    restart: unless-stopped
+    network_mode: host
