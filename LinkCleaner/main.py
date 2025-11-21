@@ -48,7 +48,7 @@ AUTO_DOWNLOAD_VIDEO_DOMAINS = ["ifunny","reddit"]
 INVALID_VIDEO_PATHS = ["*.png","*.jpeg","*.avif","*.bmp","*.webp","*.jpg","*jpeg/*","*jpeg%3A*","*jpg/*","*jpg%3A*","*png/*","*png%3A*","*bmp/*","*bmp%3A*","*avif/*","*avif%3A*","*webp/*","*webp%3A*","@jpeg","@png","@bmp","@jpg","emojis/*","*.gif","*.gif?*",]
 IGNORED_CLEAN_DOMAINS = ["discord","discordapp","skribbl"]
 IGNORED_VIDEO_DOMAINS = ["tenor"]
-IGNORED_REDIRECT_DOMAINS = ["kkinstagram","rxddit","fixvx"]
+IGNORED_REDIRECT_DOMAINS = ["youtu","kkinstagram","rxddit","fixvx"]
 DOMAIN_YDL_OPTS = {
     "ifunny": {'playlist_index': 1,'postprocessors': [], 'postprocessor_args': {}},
     "discordapp": {'format': 'bestvideo*+bestaudio*','recode': 'mp4'}
