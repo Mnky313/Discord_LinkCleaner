@@ -44,7 +44,7 @@ REDIRECTED_FQDNS = {
     "minecraft.fandom.com": "minecraft.wiki",
     "tiktok.com": "vxtiktok.com"
 }
-AUTO_DOWNLOAD_VIDEO_DOMAINS = ["ifunny","reddit","discord","discordapp"]
+AUTO_DOWNLOAD_VIDEO_DOMAINS = ["ifunny","reddit"]
 INVALID_VIDEO_PATHS = ["*.png","*.jpeg","*.avif","*.bmp","*.webp","*.jpg","*jpeg/*","*jpeg%3A*","*jpg/*","*jpg%3A*","*png/*","*png%3A*","*bmp/*","*bmp%3A*","*avif/*","*avif%3A*","*webp/*","*webp%3A*","@jpeg","@png","@bmp","@jpg","emojis/*","*.gif","*.gif?*",]
 IGNORED_CLEAN_DOMAINS = ["discord","discordapp","skribbl"]
 IGNORED_VIDEO_DOMAINS = ["tenor"]
